@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "dbms_miniproject"]
+	url = https://github.com/vikas-meka/dbms_miniproject.git
+	fetch = +refs/heads/*:refs/remotes/dbms_miniproject/*
+[branch "master"]
+	remote = dbms_miniproject
+	merge = refs/heads/master
